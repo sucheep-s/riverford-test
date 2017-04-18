@@ -1,0 +1,36 @@
+<div class="container" ng-init="init()" >
+	<div class="result_header"><h1>RESULTS</h1></div>	
+		<div class="table-responsive">
+			<table class="table table_result">
+				<tr>
+					<td class="result_title">Word Count : </td>
+					<td class="result_value">{{file.wordCount}}</td>
+				</tr>
+				<tr>
+					<td class="result_title">Line Count : </td>
+					<td class="result_value">{{file.lineCount}}</td>
+				</tr>	
+				<tr>
+					<td class="result_title">Mean : </td>
+					<td class="result_value">{{file.mean}}</td>
+				</tr>	
+				<tr>
+					<td class="result_title">Mode : </td>
+					<td class="result_value">{{mode}}</td>
+				</tr>	
+				<tr>
+					<td class="result_title">Median : </td>
+					<td class="result_value">{{file.median}}</td>
+				</tr>	
+				<tr>
+					<td class="result_title">Most Common Letter : </td>
+					<td class="result_value">{{mostCommonLetter}}</td>
+				</tr>																							
+			</table>
+		</div>
+		<div class="row row_reselect_file">
+			<div class="col-md-12">
+				<button class="btn btn_reselect_file" ng-click="newFile()">SELECT A NEW FILE</button>
+			</div>
+		</div>
+</div>

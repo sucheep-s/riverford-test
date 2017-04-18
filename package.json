@@ -1,0 +1,30 @@
+{
+  "name": "test-sucheep",
+  "version": "1.0.0",
+  "description": "For the technical Test the internship @ Reiverford",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "postinstall": "./node_modules/bower/bin/bower install; ./node_modules/.bin/grunt build"
+  },
+  "author": "Sucheep Sriintra",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-html2js": "^0.3.8",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}
